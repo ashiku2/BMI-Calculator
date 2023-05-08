@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('bacckground.jpg');
+}
+
+span{
+    color: yellow;
+}
+button{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.wrapper{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    color: black;
+    padding: 10px;
+    border: 2px solid white;
+    background: yellow;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
